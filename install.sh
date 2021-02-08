@@ -8,7 +8,7 @@ elif [ $UID -ne 0 ]; then
         exit 0
 else
 
-wget -P /tmp/ https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12/raw/master/YaHei%20Consolas%20Hybrid%201.12.ttf
+wget -P /tmp/ https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12/raw/master/YaHei_Consolas_Hybrid_1.12.ttf
 
 echo 'Truetype folder Creating...'
 echo 'path:/usr/share/fonts/truetype/YaHei_Consolas_Hybrid'
@@ -17,11 +17,11 @@ mkdir -p /usr/share/fonts/truetype/YaHei_Consolas_Hybrid
 
 echo 'Move font to truetype folder...'
 
-mv /tmp/YaHei\ Consolas\ Hybrid\ 1.12.ttf /usr/share/fonts/truetype/YaHei_Consolas_Hybrid
+mv /tmp/YaHei_Consolas_Hybrid_1.12.ttf /usr/share/fonts/truetype/YaHei_Consolas_Hybrid
 
 echo 'Modifying font permissions...'
 
-chmod 644 /usr/share/fonts/truetype/YaHei_Consolas_Hybrid/YaHei\ Consolas\ Hybrid\ 1.12.ttf
+chmod 644 /usr/share/fonts/truetype/YaHei_Consolas_Hybrid/YaHei_Consolas_Hybrid_1.12.ttf
 
 echo 'installing YaHei Consolas Hybrid font...'
 
