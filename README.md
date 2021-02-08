@@ -12,7 +12,7 @@ a font for developers that correctly displays Asian characters when mixed with L
 wget -qO- https://raw.githubusercontent.com/yakumioto/YaHei-Consolas-Hybrid-1.12/master/install.sh | sudo sh
 ```
 
-## 安装
+## 安装 （参考）
 + 下载这个字体.
 ```
 git clone https://github.com/yakumioto/YaHei-Consolas-Hybrid-1.12
